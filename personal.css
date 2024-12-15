@@ -1,87 +1,129 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #979797;
+    background-color: #cfcaca;
     min-height: 100vh;
     /* position: relative;
     padding-bottom: 80px; */
 }
+/* Header and Nav lines 10-40 */
+header{
+    position: sticky;
+    top: 0;
+}
 .header {
     /* height: 100px; */
-    /* display: flex;
-  justify-content: space-between; */
+    display: flex;
+  justify-content: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #cd7f32;
+    font-size: 35px;
+    color: #cfcaca;
     align-self: flex-end;
     margin: 0;
-    padding: 0;
-    padding-bottom: 10px;
+    padding: 15px;
+    /* padding-top: 10px; */
+    /* padding-left: 50px; */
     /* box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); */
     /* vertical-align: baseline; */
 }
 .nav {
-    /* display: inline-block; */
-    justify-content: flex-end;
-    color: #cd7f32;
+    /* display: flex; */
+    justify-content: space-between;
+    color: #cfcaca;
     text-decoration: none;
+    font-size: 15px;
     align-self: flex-end;
     color: inherit;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-right: 40px;
-    padding-bottom: 10px;
-
+    /* padding-right: 40px; */
+    padding: 20px;
+    padding-right: 25px;
 }
-
+/* container for header and nav bar */
 .container {
+    position: sticky;
+    top: 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(50, 52, 52);
+        justify-content: space-between;
+        align-items: flex-end;
+    /* flex-direction: column; */
+    background-color: rgb(81, 82, 82);
     height: 80px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, .7);
-    color: #cd7f32;
+    color: #cfcaca;
 }
-
+/* individual nav edits 56-90 */
 .nav1 {
     color: inherit;
     font-weight: bolder;
+    border: #cfcaca solid 2px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav1:hover {
+    background-color: #000000;
 }
 
 .nav2 {
     color: inherit;
     font-weight: bolder;
+    border: #cfcaca solid 2px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav2:hover {
+    background-color: #000000;
 }
 
 .nav3 {
     color: inherit;
     font-weight: bolder;
+    border: #cfcaca solid 2px;
+    padding: 5px;
+    text-decoration: none;
 }
 
+.nav3:hover {
+    background-color: #000000;
+}
+/* footer for all pages */
 .footer {
+    bottom: 0;
+    position:sticky;top:100vh;
     display: flex;
-    background-color: rgb(50, 52, 52);
-    color: #cd7f32;
+    background-color: rgb(81, 82, 82);
+    color: #cfcaca;
     font-size: 40px;
     font-family: "Brush Script MT";
-    height: 80px;
-    box-shadow: 0 -10px 10px 0px rgba(0, 0, 0, .7);
+    height: 50px;
+    box-shadow: 0 -5px 5px 0px rgba(0, 0, 0, .5);
     justify-content: center;
     align-items: center;
     /* position: absolute; */
-    bottom: 0;
-    position:sticky;top:100vh
+    /* padding-top: 30px; */
+    
 }
+/* home image */
 .img{
     display: flex;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 600px;
     padding-right: 40px;
-    padding-top: 20px;
+    padding-top: 50px;
 }
+/* home layout lines 117-125 */
 .home{
     display: flex;
     justify-content: space-around;
 }
+.Home1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* 'about' text lines 127-173*/
 .div{
     display: flex;
     justify-content: space-around;
@@ -89,12 +131,173 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     font-size: 24px;
-    width: 500px;
-    /* padding-left: 30px; */
+    line-height: 1.5;
+    width: 550px;
+    padding-left: 70px;
     padding-top: 20px;
     /* width: 2000px; */
 }
-.Home1{
+.h2sect{
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.3;
+}
+/* battery emoji edits */
+.emoji{
+    /* height: 5px; */
+    font-size: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.h2about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* justify-content: center;
+    align-items: center; */
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0;
+    width: 450px;
+    height: 410px;
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: start;
+    border-bottom: #000000 solid .5px;
+    -webkit-box-shadow: 0 0px 6px 0px #222;
+        -moz-box-shadow: 0 4px 6px -6px #222;
+        box-shadow: 0 4px 6px -6px #222;
+}
+/* about page layout */
+.about{
+    display: flex;
+    justify-content:space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    /* flex-direction: column; */
+}
+/* all h3's */
+h3{
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+/* motorcycle section */
+.motorcycle{
+    /* border: #000000 solid 1.5px; */
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: #dddddd solid 1.5px;
+    /* background-color: rgb(255, 255, 255); */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+}
+/* football section */
+.football{
+    display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+        border: #dddddd solid 1.5px;
+        /* background-color: rgb(50, 52, 52); */
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    /* padding-left: 5px; */
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+}
+/* wife and dogs section */
+.wife{
+    display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: #dddddd solid 1.5px;
+    /* background-color: rgb(50, 52, 52); */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+}
+/* music section */
+.music{
+display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: #dddddd solid 1.5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+}
+/* bourbon section */
+.bourbon{
+display: flex;
+    justify-content: flex-start;
+    align-items: space-between;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: #dddddd solid 1.5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+}
+/* motorcycle image */
+.bike{
+    justify-self: center;
+    align-self: center;
+    width: 440px;
+    height: 500px;
+    /* padding-bottom: 15px; */
+    padding-top: 15px; 
+}
+/* football image  */
+.JJimg{
+    justify-self: center;
+        align-self: center;
+        width: 440px;
+        /* height: 500px; */
+        /* padding-bottom: 15px; */
+        padding-top: 15px;
+}
+/* wife and dogs image  */
+.family{
+    padding-top: 15px;
+    height: 500px;
+}
+/* music image  */
+.rapper{
+justify-self: center;
+    align-self: center;
+    width: 440px;
+    padding-top: 15px;
+}
+/* bourbon image  */
+.drink{
+justify-self: center;
+align-self: center;
+padding-top: 35px;
+width: 450px;
+height: 500px;
 }
