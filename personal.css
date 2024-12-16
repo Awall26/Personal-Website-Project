@@ -301,3 +301,89 @@ padding-top: 35px;
 width: 450px;
 height: 500px;
 }
+/* Portfolio CSS start */
+/* header */
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+    padding: 30px;
+}
+/* body alignment */
+.Pbody{
+    /* padding: 15px; */
+    /* margin: 15px; */
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* text-align: center; */
+    width: 100%;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.5;
+}
+/* individual section edits */
+.P1{
+    padding: 20px;
+    width: 30%;
+    border: #dddddd solid 1.5px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    /* display: flex; */
+    /* text-align: center; */
+}
+.P2{
+    padding: 20px;
+    width: 30%;
+    border: #dddddd solid 1.5px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+}
+.P3{
+    padding: 20px;
+    width: 30%;
+    border: #dddddd solid 1.5px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+}
+/* image edits */
+.p1image{
+    padding: 0;
+    margin: 0;
+    padding-top: 90px;
+    width: 480px;
+}
+.p2image{
+    padding: 0;
+    margin: 0;
+    padding-top: 90px;
+    width: 480px;
+}
+.p3image{
+    padding: 0;
+    margin: 0;
+    padding-top: 28px;
+    width: 480px;
+}
+/* Header text align */
+.p1head{
+    text-align: center;
+    text-decoration: underline;
+    color: #000000;
+}
+.p2head{
+    text-align: center;
+    text-decoration: underline;
+    color: #000000;
+}
+.p3head{
+    text-align: center;
+    text-decoration: underline;
+    color: #000000;
+}
+/* link color */
+a{
+    color: inherit;
+}
