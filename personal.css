@@ -352,31 +352,38 @@ h1{
 .p1image{
     padding: 0;
     margin: 0;
-    padding-top: 52px;
-    width: 570px;
+    padding-top: 90px;
+    width: 480px;
 }
 .p2image{
     padding: 0;
     margin: 0;
-    padding-top: 80px;
-    width: 570px;
+    padding-top: 90px;
+    width: 480px;
 }
 .p3image{
     padding: 0;
     margin: 0;
-    padding-top: 48px;
-    width: 570px;
+    padding-top: 28px;
+    width: 480px;
 }
 /* Header text align */
 .p1head{
     text-align: center;
     text-decoration: underline;
+    color: #000000;
 }
 .p2head{
     text-align: center;
     text-decoration: underline;
+    color: #000000;
 }
 .p3head{
     text-align: center;
     text-decoration: underline;
+    color: #000000;
+}
+/* link color */
+a{
+    color: inherit;
 }
