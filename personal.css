@@ -88,6 +88,16 @@ header{
 .nav3:hover {
     background-color: #000000;
 }
+.nav4 {
+    color: inherit;
+    font-weight: bolder;
+    border: #cfcaca solid 2px;
+    padding: 5px;
+    text-decoration: none;
+}
+.nav4:hover {
+    background-color: #000000;
+}
 /* footer for all pages */
 .footer {
     bottom: 0;
