@@ -421,12 +421,18 @@ form {
     width: 200px;
     height: 20px;
 }
+#fullname {
+    background-color: #f5efef;
+}
 .email {
     margin-top: 5px;
     margin-bottom: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 200px;
     height: 20px;
+}
+#email {
+    background-color: #f5efef;
 }
 .submit {
     margin-top: 20px;
@@ -435,6 +441,9 @@ form {
 }
 .textarea {
     margin-top: 5px;
+}
+#textarea {
+    background-color: #f5efef;
 }
 .Form1 {
     display: flex;
